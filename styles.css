@@ -8,7 +8,10 @@
   --solid-border: 2px solid black;
   --dashed-border: 2px dashed black;
 }
-
+body{
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
 .table {
   display: flex;
   flex-direction: column;
@@ -55,7 +58,7 @@
 }
 .legend-label {
     font-size: 14px;
-    min-width: 20px;  /* Ensures consistent spacing */
+    min-width: 20px;
     text-align: center;
 }
 #legend span{
